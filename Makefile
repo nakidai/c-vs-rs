@@ -1,11 +1,11 @@
 .POSIX:
 
-RUSTC ?= rustc
+RUSTC == rustc
 RUSTFLAGS = -C opt-level=z -C strip=symbols -C lto -C panic=abort
 
-CC ?= cc
-CFLAGS = -Oz -static
-LDFLAGS = -flto -Oz
+CC = musl-gcc
+CFLAGS = -Oz
+LDFLAGS = -static -flto -Oz
 
 .PHONY: all
 all: rust c

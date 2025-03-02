@@ -1,4 +1,9 @@
-OS: Arch Linux x86_64
-Kernel: 6.12.8-arch1-1
--rwxr-xr-x 1 naki users 675K Mar  2 13:11 main.c.elf
+Built using:
+    gcc version 14.2.1 20240910 (GCC)
+    rustc 1.80.1 (3f5fd8dd4 2024-08-06)
+    musl 1.2.5-3
+For more details read Makefile
+
+Output files:
+-rwxr-xr-x 1 naki users  14K Mar  2 13:21 main.c.elf
 -rwxr-xr-x 1 naki users 287K Mar  2 13:08 main.rs.elf
