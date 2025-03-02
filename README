@@ -1,0 +1,4 @@
+OS: Arch Linux x86_64
+Kernel: 6.12.8-arch1-1
+-rwxr-xr-x 1 naki users 675K Mar  2 13:11 main.c.elf
+-rwxr-xr-x 1 naki users 287K Mar  2 13:08 main.rs.elf
